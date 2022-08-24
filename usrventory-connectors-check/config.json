@@ -1,0 +1,16 @@
+{
+"inventory_base_url" : "https://siem.ua/console/plugins/3351/app_proxy:nodeserver/api/",
+"connectors_list_url" : "connectors?fields=query",
+"connector_status_url" : "connectors",
+"worker_status_url" : "table/status",
+"connectors_error_status_url" : "logs/errors",
+"zabbix_preffix" : "userventory",
+"SEC" : "QRadar API Token put here",
+  
+"exclude" : [
+	
+	"62b2e60da081dc7579399a64-"
+	]
+
+}
+    

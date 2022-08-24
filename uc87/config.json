@@ -1,0 +1,101 @@
+{
+  "base_url_qradar": "https://soc-siem.hq.gng.ua/api/reference_data/sets/RD%253AUC87-3-Accounts%2520with%2520the%2520privileges%2520of%2520viewing%2520the%2520attributes%2520of%2520the%2520LAPS",
+  "source_user": "&source=SocScript",
+  
+  "base_url_qradar_adduser": "https://siem_host/api/reference_data/sets/RD%253AUC87-3-Accounts%2520with%2520the%2520privileges%2520of%2520viewing%2520the%2520attributes%2520of%2520the%2520LAPS?value=",
+  "base_url_qradar_deluser": "https://siem_host/api/reference_data/sets/RD%253AUC87-3-Accounts%2520with%2520the%2520privileges%2520of%2520viewing%2520the%2520attributes%2520of%2520the%2520LAPS",
+  "base_url_inventory": "https://siem_host/console/plugins/3351/app_proxy:nodeserver/api/table/data",
+  "basic_params_inventory": {"start":0,"size":100,"sortBy":"name"},
+  "SEC" : "81b9f7a3-6b09-4187-b3b7-800a30aec7da",
+  
+  
+  "config": [
+    {
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=Domain Admins.Users"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=Enterprise Admins.Users"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=dc_adm.DC.adm_accounts.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+	},
+	
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=it.pos.help.розсилки ітшні.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=it.support.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=it.support_region.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=it.support_region_ws.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=ithelp-computer-management.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=ithelp-join-domain.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+    },
+	{
+      "domain": "domain=hq",
+      "ou": "",
+      "member_of_group": "member_of_group=ithelp-join-domain-TK.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+    },
+
+
+
+	{
+      "domain": "domain=hlibprom",
+	  "ou": "",
+      "member_of_group": "member_of_group=srv_adm.SRV.adm_accounts.GNG"
+    },
+	{
+      "domain": "domain=hlibprom",
+	  "ou": "",
+      "member_of_group": "member_of_group=ws_admin.SD.GNG"
+    }, 
+	{
+      "domain": "domain=hq",
+	  "ou": "",
+      "member_of_group": "member_of_group=WS_admin.Local Group"
+    }, 
+
+
+	{
+      "domain": "domain=rc",
+      "ou": "",
+      "member_of_group": "member_of_group=Domain Admins.Users"
+    },   
+	{
+      "domain": "domain=hq",
+	  "ou": "",
+      "member_of_group": "member_of_group=ws_admin.POS Groups"
+    },
+	{
+      "domain": "domain=pos",
+	  "ou": "",
+      "member_of_group": "member_of_group=Domain Admins.Users"
+    }
+]
+}
+    
