@@ -6,7 +6,7 @@
   "base_url_qradar_deluser": "https://siem_host/api/reference_data/sets/RD%253AUC87-3-Accounts%2520with%2520the%2520privileges%2520of%2520viewing%2520the%2520attributes%2520of%2520the%2520LAPS",
   "base_url_inventory": "https://siem_host/console/plugins/3351/app_proxy:nodeserver/api/table/data",
   "basic_params_inventory": {"start":0,"size":100,"sortBy":"name"},
-  "SEC" : "81b9f7a3-6b09-4187-b3b7-800a30aec7da",
+  "SEC" : {"Put API KEY HERE"},
   
   
   "config": [
@@ -23,43 +23,43 @@
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=dc_adm.DC.adm_accounts.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=dc_adm.DC.adm_accounts.{PUT GROUP NAME}"
 	},
 	
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=it.pos.help.розсилки ітшні.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=it.pos.help.{PUT GROUP NAME}"
     },
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=it.support.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=it.support.Local Groups.{PUT GROUP NAME}"
     },
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=it.support_region.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=it.support_region.Local Groups.{PUT GROUP NAME}"
     },
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=it.support_region_ws.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=it.support_region_ws.Local Groups.{PUT GROUP NAME}"
     },
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=ithelp-computer-management.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=ithelp-computer-management.Local Groups.{PUT GROUP NAME}"
     },
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=ithelp-join-domain.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=ithelp-join-domain.Local Groups.{PUT GROUP NAME}"
     },
 	{
       "domain": "domain=hq",
       "ou": "",
-      "member_of_group": "member_of_group=ithelp-join-domain-TK.Local Groups.сектор системної інтеграції.відділ ІТ.фінансовий напрямок.Галнафтогаз"
+      "member_of_group": "member_of_group=ithelp-join-domain-TK.Local Groups.{PUT GROUP NAME}"
     },
 
 
